@@ -1,0 +1,31 @@
+JAVA PASSWORD GENERATOR — SAMPLE OUTPUT
+
+Example 1: Generate a password using all character types
+
+Input:
+
+Password length: 12
+Uppercase letters: true
+Lowercase letters: true
+Numbers: true
+Symbols: true
+
+Output:
+
+Generated Password: aB7@kP2#mX9!
+
+Example 2: Generate a password using only lowercase letters and numbers
+
+Input:
+
+Password length: 8
+Uppercase letters: false
+Lowercase letters: true
+Numbers: true
+Symbols: false
+
+Output:
+
+Generated Password: k8m2p5q1
+
+Note: These are illustrative examples. Actual passwords will vary each time the program runs.
