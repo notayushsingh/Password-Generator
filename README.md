@@ -104,3 +104,7 @@ Through this project, I practiced:
 ## 🔒 Security Note
 
 This project uses `SecureRandom` to generate random characters. However, password security also depends on password length, character selection, implementation details, and how the password is stored or shared.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details
