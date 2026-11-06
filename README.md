@@ -1,60 +1,65 @@
-# 🔐 Java Password Generator
+# 🔐 Password Generator
 
-A simple and customizable **Random Password Generator** built using Java. This project generates random passwords based on the user's preferred character types, including uppercase letters, lowercase letters, numbers, and special symbols.
+A simple and customizable Random Password Generator implemented in Java and Python. This project generates random passwords based on the user's preferred character types, including uppercase letters, lowercase letters, numbers, and special symbols.
 
-It uses Java's `SecureRandom` class to generate random characters and provides a simple console-based interface for creating passwords.
+It uses Java's "SecureRandom" class and Python's "secrets" module for cryptographically secure random character selection, with a simple console-based interface.
 
 ## ✨ Features
 
--  Generate random passwords of a user-defined length.
--  Include uppercase letters (`A-Z`).
--  Include lowercase letters (`a-z`).
--  Include numbers (`0-9`).
--  Include special symbols.
--  Customize passwords by selecting the character types to include.
--  Uses Java's `SecureRandom` for cryptographically strong random number generation.
--  Simple and beginner-friendly console interface.
+- Generate random passwords of a user-defined length (8–64 characters).
+- Include uppercase letters ("A-Z").
+- Include lowercase letters ("a-z").
+- Include numbers ("0-9").
+- Include special symbols.
+- Customize passwords by selecting the character types to include.
+- Uses cryptographically secure random number generation.
+- Supports both Java and Python implementations.
+- Simple and beginner-friendly console interface.
 
 ## 🛠️ Technologies Used
 
-- **Java** — Core programming language.
-- **SecureRandom** — Generates cryptographically strong random values.
+- Java — Core programming language.
+- Python — Additional implementation.
+- SecureRandom — Java's secure random number generator.
+- secrets — Python's secure random generation module.
 
 ## 📋 Prerequisites
 
 Make sure you have the following installed:
 
-- Java Development Kit (JDK)
-- A code editor or IDE, such as VS Code, IntelliJ IDEA, or Eclipse
-- A terminal or command prompt
+- Java Development Kit (JDK), for the Java version.
+- Python 3, for the Python version.
+- A code editor or IDE, such as VS Code, IntelliJ IDEA, or Eclipse.
+- A terminal or command prompt.
 
 ## 🚀 How to Run
 
-### 1. Clone the repository
+Java Version
 
-```bash
-git clone https://github.com/notayushsingh/Password-Generator
-```
+1. Clone the repository
 
-Replace `https://github.com/notayushsingh/Password-Generator` with your actual GitHub repository URL.
+    `` git clone 
+    https://github.com/notayushsingh/Password-Generator ``
 
-### 2. Navigate to the project directory
+2. Navigate to the project directory
 
-```bash
-cd java-password-generator
-```
+      `` cd Password-Generator ``
 
-### 3. Compile the Java program
+3. Compile the Java program
 
-```bash
-javac PasswordGenerator.java
-```
+    `` javac PasswordGenerator.java ``
 
-### 4. Run the program
+4. Run the program
 
-```bash
-java PasswordGenerator
-```
+    `` java PasswordGenerator ``
+
+Python Version
+
+1. Navigate to the project directory.
+
+2. Run the Python program
+
+     `` python password_generator.py ``
 
 Follow the on-screen instructions to generate your password.
 
@@ -63,36 +68,21 @@ Follow the on-screen instructions to generate your password.
 1. The program asks the user for the desired password length.
 2. The user selects which character types to include.
 3. The program builds a character pool based on the selected options.
-4. `SecureRandom` selects random characters from the available pool.
+4. A secure random generator selects characters from the available pool.
 5. The generated password is displayed in the console.
-
-## 📸 Eaxmple
-
-```text
-===== Random Password Generator =====
-
-Enter password length: 12
-Include uppercase letters? true
-Include lowercase letters? true
-Include numbers? true
-Include symbols? true
-
-Generated Password: aB7@kP2#mX9!
-```
-
-*Note: The example password is illustrative. Your program's actual prompts and output may differ.*
 
 ## 📚 What I Learned
 
 Through this project, I practiced:
 
-- Java fundamentals and methods.
-- Taking user input with `Scanner`.
-- Using conditional statements and Boolean parameters.
-- Generating random values with `SecureRandom`.
+- Java and Python fundamentals.
+- Taking user input and handling invalid inputs.
+- Using conditional statements and Boolean values.
+- Generating secure random values.
 - Working with strings and character sets.
-- Organizing code into reusable methods.
-- Building a practical console-based application.
+- Organizing code into reusable functions and methods.
+- Implementing the same program logic in two different programming languages.
+- Building practical console-based applications.
 
 ## 🔮 Future Improvements
 
@@ -103,8 +93,8 @@ Through this project, I practiced:
 
 ## 🔒 Security Note
 
-This project uses `SecureRandom` to generate random characters. However, password security also depends on password length, character selection, implementation details, and how the password is stored or shared.
+This project uses Java's "SecureRandom" and Python's "secrets" module for secure random generation. However, password security also depends on password length, character selection, implementation details, and how the password is stored or shared.
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License. See the LICENSE file for details
+This project is licensed under the MIT License. See the LICENSE file for details.
