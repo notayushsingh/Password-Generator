@@ -34,7 +34,7 @@ Make sure you have the following installed:
 
 ## 🚀 How to Run
 
-Java Version
+### Java Version
 
 1. Clone the repository
 
@@ -53,7 +53,7 @@ Java Version
 
     `` java PasswordGenerator ``
 
-Python Version
+### Python Version
 
 1. Navigate to the project directory.
 
